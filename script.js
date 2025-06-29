@@ -1059,7 +1059,7 @@ function importLevel(levelData){
     //Set moves & time
     document.getElementById("moves").value = levelData.moveLimit || ""
     document.getElementById("time").value = levelData.timeLimit || ""
-    document.getElementById("frogStomachSize").value = levelData.frogStomachSize || ""
+    document.getElementById("frogstomachsize").value = levelData.frogStomachSize || ""
     
 
     //Set preferred colors
