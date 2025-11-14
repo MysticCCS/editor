@@ -5,7 +5,7 @@ const sugarCoats = {"134": "sugarcoat_1", "135": "sugarcoat_2", "136": "sugarcoa
 const locks = {"008": "licorice", "025": "marmalade", "038": "mulock1", "039": "mulock2", "040": "mulock3", "041": "mulock4", "042": "mulock5", "268": "vent_cotton"}
 const glass = {"122": "glass_tile_1", "123": "glass_tile_2", "124": "glass_tile_3",}
 const blockers={"007":"block_frosting","053":"chocolate_frog","009":"chocolate","017":"licorice_square","019":"block_multi_frosting1","020":"block_multi_frosting2","021":"block_multi_frosting3","022":"block_multi_frosting4","023":"block_multi_frosting5","024":"chocolate_spawner","035":"cake_bomb","054":"shell_1","062":"magic_mixer","066":"bobber","079":"block_waffle1","080":"block_waffle2","081":"block_waffle3","082":"block_waffle4","083":"block_waffle5","094":"dark_chocolate_1","095":"dark_chocolate_2","096":"dark_chocolate_3","097":"dark_chocolate_4","098":"dark_chocolate_5","129":"chain_layer1_c","130":"chain_layer2_c","131":"chain_layer3_c","132":"chain_layer4_c","133":"chain_layer5_c","157":"shell_3","158":"shell_2","159":"bubble_pop_1","160":"bubble_pop_2","161":"bubble_pop_3","162":"bubble_pop_4","163":"bubble_pop_5","211":"dark_chocolate_spawner_1","212":"dark_chocolate_spawner_2","213":"dark_chocolate_spawner_3","220":"jelly_jar_1","221":"jelly_jar_2","230":"gumball_machine","037":"toffee_tornado","070":"pinata","073":"pinata_crash","074":"pinata_link1","075":"pinata_link2","076":"pinata_link3","077":"pinata_unbreakable","078":"pinata_empty","156":"rainbow_rapid_mold","099":"crystallized_licorice","100":"adjecent_bobber","101":"mystery_blocker","102":"static_licorice_1","103":"static_licorice_2","104":"static_licorice_3","105":"static_licorice_4","106":"static_licorice_5","202":"layered_mystery_1","203":"layered_mystery_2","204":"layered_mystery_3","205":"blue_fizz_1","206":"blue_fizz_2","207":"blue_fizz_3","208":"blue_fizz_4","231":"summer_fizz_1","232":"summer_fizz_2","233":"summer_fizz_3","234":"summer_fizz_4","236":"block_multi_frosting6","237":"block_multi_frosting7","238":"block_multi_frosting8"};
-const bonbon = {"182": "bonbon_colorbomb_1", "183": "bonbon_colorbomb_2", "184": "bonbon_colorbomb_3", "185": "bonbon_colorbomb_4", "186": "bonbon_horizontal_1", "187": 'bonbon_horizontal_2', "188": "bonbon_horizontal_3", "189": "bonbon_horizontal_4", "190": "bonbon_vertical_1", "191": "bonbon_vertical_2", "192": "bonbon_vertical_3", "193": "bonbon_vertical_4", "194": "bonbon_fish_1", "195": "bonbon_fish_2", "196": "bonbon_fish_3", "197": "bonbon_fish_4", "198": "bonbon_wrapped_1", "199": "bonbon_wrapped_2", "200": "bonbon_wrapped_3", "201": "bonbon_wrapped_4", "254": "bear1", "255": "bear2", "256": "bear3", "257": "bear4", "258": "bear5", "259": "bear6", "260": "empty_honey_1", "261": "empty_honey_2", "262": "empty_honey_3", "263": "empty_honey_4", "264": "empty_honey_5", "265": "empty_honey_6"}
+const bonbon = {"182": "bonbon_colorbomb_1", "183": "bonbon_colorbomb_2", "184": "bonbon_colorbomb_3", "185": "bonbon_colorbomb_4", "186": "bonbon_horizontal_1", "187": 'bonbon_horizontal_2', "188": "bonbon_horizontal_3", "189": "bonbon_horizontal_4", "190": "bonbon_vertical_1", "191": "bonbon_vertical_2", "192": "bonbon_vertical_3", "193": "bonbon_vertical_4", "194": "bonbon_fish_1", "195": "bonbon_fish_2", "196": "bonbon_fish_3", "197": "bonbon_fish_4", "198": "bonbon_wrapped_1", "199": "bonbon_wrapped_2", "200": "bonbon_wrapped_3", "201": "bonbon_wrapped_4", "254": "bear1", "255": "bear2", "256": "bear3", "257": "bear4", "258": "bear5", "259": "bear6", "260": "empty_honey_1", "261": "empty_honey_2", "262": "empty_honey_3", "263": "empty_honey_4", "264": "empty_honey_5", "265": "empty_honey_6","750":"red_frosting","751":"orange_frosting","752":"yellow_frosting","753":"green_frosting","754":"blue_frosting","755":"purple_frosting",}
 const tiles = {"empty": "empty", "000": "none", "001": "grid", "003": "jelly", "004": "jelly2", "064": "blue_tile", "065": "black_tile", "209": "rock1", "210": "rock2", "266": "jelly3", "267": "jelly4"}
 const ingredients = {"048": "cherry", "126": "hazelnut", "920": "butter"}
 const walldown = {"087": "wall_down", "165": "licorice_wall_down", "110": "destructible_wall_1_down", "114": "destructible_wall_2_down", "118": "destructible_wall_3_down", "169": "destructible_wall_lic_1_down", "173": "destructible_wall_lic_2_down", "177": "destructible_wall_lic_3_down"}
@@ -14,7 +14,7 @@ const wallright = {"089": "wall_right", "167": "licorice_wall_right", "112": "de
 const wallleft = {"088": "wall_left", "166": "licorice_wall_left", "111": "destructible_wall_1_left", "115": "destructible_wall_2_left", "119": "destructible_wall_3_left", "170": "destructible_wall_lic_1_left", "174": "destructible_wall_lic_2_left", "178": "destructible_wall_lic_3_left"}
 const rainbowcannontop = {"152":"rainbow_rapid_cannon_top"}
 const rainbowcannonbottom = {"153":"rainbow_rapid_cannon_bottom"}
-const rainbowcannonleft = {"154":"rainbow_rapid_cannon_left"}   
+const rainbowcannonleft = {"154":"rainbow_rapid_cannon_left"}
 const rainbowcannonright = {"155":"rainbow_rapid_cannon_right"}
 const cannons = {"027": "cannon_ingredient", "028": "cannon_licorice", "029": "cannon_bomb", "030": "cannon_mulock_key", "031": "cannon_mystery", "067": "cannon_chameleon", "068": "cannon_lucky", "069": "cannon_extra_time_and_moves", "071": "cannon_striped_candy", "072": "cannon_wrapped_candy", "085": "cannon_extra_moves_candy", "107": "cannon_striped_horizontal", "108": "cannon_striped_vertical", "239": "cannon_cracked_candy", "127": "cannon_colorbomb", "128": "cannon_fish", "240": "cannon_wheel", "241": "cannon_ufo", "242": "cannon_sugar_drops"}
 const path = {"140": "rainbow_stream_vertical", "141": "rainbow_stream_horizontal", "142": "rainbow_stream_BL", "143": "rainbow_stream_BR", "144": "rainbow_stream_TL", "145": "rainbow_stream_TR", "146": "rainbow_stream_TBL", "147": "rainbow_stream_TBR", "148": "rainbow_stream_TLR", "149": "rainbow_stream_BLR", "150": "rainbow_stream_all_directions", "151": "rainbow_stream_intersection_point"}
@@ -106,7 +106,7 @@ const layerElements = {
     "candy_cannon": ["005"].concat(Object.keys(cannons)),
     "portal_entrance":[].concat(Object.keys(portalentrance)),
     "portal_exit":[].concat(Object.keys(portalexit))
-    
+
 }
 
 var preferredColors = [0,1,2,3,4]
@@ -171,7 +171,7 @@ function addRequirement(isIngredient = false, ignoreLimit = false){
             document.getElementById("requirementwarning").style.display = "none"
         }
     }
-    
+
     section = document.createElement("div")
     section.classList.add("sideoptions")
     let typeText = "Order"
@@ -182,7 +182,7 @@ function addRequirement(isIngredient = false, ignoreLimit = false){
     }
     section.innerHTML = '<button style="position: 102px; right: 90px; top: 20px; border-radius: 50%; background-color: #00000090; width: 35px; height: 35px; font-size: 1.2em; color: white; border: none; cursor: pointer; padding: 0; display: flex; align-items: center; justify-content: center;" onclick="removeRequirement(this)">✖</button> <p class="BananaSplit break" style="font-weight: bold; color: white; text-align: center;">Requirement:</p> <img src="ui/hud/red.png" style="max-width: 30px; max-height: 30px;"> <p class="BananaSplit" style="margin: 10px; display: block; color: white; text-align: center;">' + typeText + ':</p> <select onchange="switchedRequirement(this)"> </select> <div class="break"></div> <img src="ui/btn_quit.png" style="max-width: 0px; max-height: 0px;"> <p class="BananaSplit" style="margin: 10px; display: block; color: white; text-align: center;">X Amount:</p> <input style="width: 50px; text-align: center;" placeholder="0" type="number">'
 
-    
+
 
 
     select = section.querySelector("select")
@@ -237,7 +237,7 @@ function switchedMixerOption(object){
 
 function addMixerOption(){
     let requirementsObj = document.getElementById("mixeroptions")
-    
+
     section = document.createElement("div")
     section.classList.add("sideoptions")
     section.setAttribute("reqtype", "mixeroption")
@@ -251,7 +251,7 @@ function addMixerOption(){
         option.innerHTML = magicMixerItems[key]
         select.appendChild(option)
     })
-    
+
     requirementsObj.prepend(section)
 }
 
@@ -295,7 +295,7 @@ function selectMode(){
     }
 
     // Stuff that if I'm not mistaken, is from before Mixed levels were added.
-    
+
     /*
     if (mode === "Drop down"){
         document.getElementById("requirements-options-section").style.display = "block"
@@ -337,7 +337,7 @@ function selectMode(){
         document.getElementById("addorder").style.display = "none"
     }
         */
-    
+
     currentMode = mode
 }
 
@@ -361,7 +361,7 @@ function togglePreferred(object){
 function toggleDropdown(object){
     let dropped = document.getElementById(object.getAttribute("associd"))
     let p = object.querySelector(".arrow")
-    
+
     if (dropped.style.display == "none"){
         dropped.style.display = "block"
         p.style.transform = "rotate(" + 0 + "deg)"
@@ -565,7 +565,7 @@ function updateTile(object){
 
 
 
-        
+
         object.setAttribute("tile", selectedElement)
         image.src = elementsFolder + elements_ids[selectedElement] + ".png"
 
@@ -607,11 +607,11 @@ function updateTile(object){
     }
     else if (selectedElement == "035"){
         let level = document.getElementById("level")
-	
+
         if (row >= 8 || column >= 8){
             return
         }
-	
+
         //Set this tile as cakebomb
         let isCake = object.getAttribute("cake")
         if (isCake !== undefined && isCake !== ""){
@@ -629,12 +629,12 @@ function updateTile(object){
             try{
                 let otherObject = level.children[info[0]].children[info[1]]
                 let otherImage = otherObject.querySelector("img.normal")
-		
+
                 isCake = otherObject.getAttribute("cake")
                 if (isCake !== undefined && isCake !== ""){
                     removeCake(otherObject)
                 }
-    		
+
                 otherImage.src = elementsFolder + info[2] + ".png"
                 otherImage.setAttribute("class", "normal default stretch")
                 otherObject.setAttribute("normal", selectedElement)
@@ -666,7 +666,7 @@ function updateTile(object){
         let colorName = elements_ids[selectedColor]
         let elementName = ""
         let name = ""
-    
+
         if (selectedColor === "002" && selectedElement === "002"){
             name = "random"
         }
@@ -677,7 +677,7 @@ function updateTile(object){
             elementName = elements_ids[selectedElement] + "_"
             name = elementName + colorName
         }
-        
+
         object.setAttribute(elementLayer, selectedElement)
         object.classList.add("frog")
         image.src = elementsFolder + name + ".png"
@@ -687,7 +687,7 @@ function updateTile(object){
             let prevElm = document.querySelector(".frog")
             console.log(prevElm)
             prevElm.classList.remove("frog")
-    
+
             if (prevElm.getAttribute("normal") === "036" || prevElm.getAttribute("normal") === "053"){
                 prevElm.setAttribute("normal", "002")
                 prevElm.setAttribute("color", selectedColor)
@@ -709,7 +709,7 @@ function updateTile(object){
 
                 cannonElements.push("005")
             }
-    
+
             cannonElements.push(selectedElement)
 
             object.setAttribute("candy_cannon", JSON.stringify(cannonElements))
@@ -721,7 +721,7 @@ function updateTile(object){
                     element.remove()
                 }
             })
-    
+
             ammoimage = ammocontainer.appendChild(document.createElement("img"))
 
             ammoimage.setAttribute("element", selectedElement)
@@ -768,7 +768,7 @@ function updateTile(object){
             let colorName = elements_ids[selectedColor]
             let elementName = ""
             let name = ""
-        
+
             if (selectedColor === "002" && selectedElement === "002"){
                 name = "random"
             }
@@ -779,7 +779,7 @@ function updateTile(object){
                 elementName = elements_ids[selectedElement] + "_"
                 name = elementName + colorName
             }
-            
+
             image.src = elementsFolder + name + ".png"
             object.setAttribute("normal", selectedElement)
             object.setAttribute("color", selectedColor)
@@ -822,7 +822,7 @@ function updateTile(object){
             image.classList.remove("small")
         } catch{}
     }
-    
+
     if (stretched.includes(selectedElement)){
         if (!image.classList.contains("stretched")){
             image.classList.add("stretched")
@@ -889,7 +889,7 @@ function updateElmState(object){
         let colorName = elements_ids[colorId]
         let elementName = ""
         let name = ""
-    
+
         if (colorId === "002" && objectId === "002"){
             name = "random"
         }
@@ -929,7 +929,7 @@ function importLevel(levelData){
         childrenRows.forEach(function(row, rIndex){
             let objects = [].slice.call(row.children)
             let color = "002"
-    
+
             objects.forEach(function(object, cIndex){
                 //Split object into array of parts of 3
                 try{
@@ -946,7 +946,7 @@ function importLevel(levelData){
                         textObject.splice(index, 1)
                     }
                 })
-    
+
                 textObject.forEach(function(objectId){
                     if (objectId.length !== 3){
                         throw "An object ID is not 3 characters long."
@@ -980,13 +980,13 @@ function importLevel(levelData){
                         }
                     }
 
-                    
-    
+
+
                     let layer = getLayerFromId(objectId)
                     selectedColor = color
                     elementLayer = layer
                     selectedElement = objectId
-                    
+
                     try{
                         updateTile(object)
                     }
@@ -1006,7 +1006,7 @@ function importLevel(levelData){
                 } else {
                     selectedElement = '014'
                 }
-                
+
                 try {
                     updateTile([].slice.call(childrenRows[portal[0][1]].children)[portal[0][0]])
                     isPortalTimeout=false
@@ -1023,7 +1023,7 @@ function importLevel(levelData){
                 } else {
                     selectedElement = '015'
                 }
-                
+
                 try {
                     updateTile([].slice.call(childrenRows[portal[1][1]].children)[portal[1][0]])
                     isPortalTimeout=false
@@ -1048,7 +1048,7 @@ function importLevel(levelData){
         originalLevel.style.display = "block"
         throw(err)
     }
-    
+
     //Set game mode
     let wantedMode = levelData['gameModeName']
     let wantedModeInput = document.getElementById("modeselection").querySelector('input[value="' + String(wantedMode) + '"]')
@@ -1060,7 +1060,7 @@ function importLevel(levelData){
     document.getElementById("moves").value = levelData.moveLimit || ""
     document.getElementById("time").value = levelData.timeLimit || ""
     document.getElementById("frogstomachsize").value = levelData.frogStomachSize || ""
-    
+
 
     //Set preferred colors
     let colorspref = document.getElementById("colorspref-section")
@@ -1078,8 +1078,8 @@ function importLevel(levelData){
             }
         }
     }
-    
-    
+
+
     //Add requirements
     let requirementsContainer = document.getElementById("requirements")
 
@@ -1090,7 +1090,7 @@ function importLevel(levelData){
     //Set Pre Level Booster
     try{
         document.getElementById("enablesugardrops").checked = levelData.enableSugarTrack || true
-    } 
+    }
     catch{
         document.getElementById("enablesugardrops").checked = true
     }
@@ -1168,7 +1168,7 @@ function importLevel(levelData){
 
         cannonSettingAddons.forEach(function(setting){
             let inputElement = document.getElementById(elm + setting)
-            
+
             if (inputElement != null){
                 inputElement.value = levelData[elm + setting] || ""
             }
@@ -1245,7 +1245,7 @@ function exportLevel(){
             let toLoopThrough = [].concat(layers, ["color"])
 
             toLoopThrough.splice(toLoopThrough.indexOf("candy_cannon"), 1)
-            
+
             toLoopThrough.forEach(function(layer){
                 //i is column
                 //levelArray.length is row
@@ -1266,7 +1266,7 @@ function exportLevel(){
                         element='084'
                     }
                 }
- 
+
                 if (element=="991" || element=="015") {
                     //element="011991"
                 }
@@ -1291,7 +1291,7 @@ function exportLevel(){
             if (object.getAttribute("normal") !== "002" && object.getAttribute("color") == "002"){
                 totalCode.splice(totalCode.indexOf("002"), 1)
             }
-            
+
             if (totalCode.includes("001") && totalCode.length != 1){
                 totalCode.splice(totalCode.indexOf("001"), 1)
             }
@@ -1341,7 +1341,7 @@ function exportLevel(){
         }
 
         level['moveLimit'] = moves
-        
+
     }
     {
         let frogstomachsize = document.getElementById("frogstomachsize").value
@@ -1353,10 +1353,10 @@ function exportLevel(){
         }
 
         level['frogStomachSize'] = frogstomachsize
-        
+
     }
-    
-    
+
+
 
 
 
@@ -1537,13 +1537,13 @@ function createNewTable(clear = false){
                     updateElmState(object)
                 }, false)
 
-                object.onmouseover = function(event) {  
-                    event.preventDefault();  
+                object.onmouseover = function(event) {
+                    event.preventDefault();
                     this.classList.add("selected")
                     if (isDown){
                         updateTile(this)
                     }
-                  }  
+                  }
 
                   object.onmousedown = function(event){
                     event.preventDefault()
@@ -1554,20 +1554,20 @@ function createNewTable(clear = false){
 
                     }
                   }
-                  object.onmouseout = function(event) {  
-                    event.preventDefault();  
+                  object.onmouseout = function(event) {
+                    event.preventDefault();
                     try{
                         this.classList.remove("selected")
                     }
                     catch{}
                   }
 
-                
+
                 if (!clear){
                     object.setAttribute('normal', "002")
                     object.setAttribute('color', "002")
                 }
-                object.setAttribute('tile', "001")  
+                object.setAttribute('tile', "001")
 
                 let ammo = object.appendChild(document.createElement("div"))
                 ammo.classList.add("ammocontainer")
@@ -1592,7 +1592,7 @@ function createNewTable(clear = false){
                         object.setAttribute("candy_entrance", "026")
                         object.setAttribute("candy_cannon", '["005"]')
                     }
-                    
+
                     image = object.querySelector(".normal")
                     image.src = elementsFolder + elements_ids["002"] + ".png"
                     image.classList.add("small")
